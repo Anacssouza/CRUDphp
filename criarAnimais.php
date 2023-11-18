@@ -9,10 +9,14 @@
 
 </head>
 <body>
+
+
     
     <h1 style='text-align: center;' class="mt-6"> Cadastro de Animal </h1>
 
-    <form action="confirmacao.php" class="row g-3" method="post" >
+    <form action="?page=salvar" class="row g-3" method="post" >
+        <input type="hidden" name="acao" value="cadastrar">    
+
         <div style='display: flex; flex-direction: row; align-items: center; justify-content: center;'>
             <div style='width: 50rem'>
                 <legend> Dados Do Responsável: </legend>
@@ -88,17 +92,11 @@
                     </div>
                     <div class="col-md-3">
                         <label class="form-label"> Vacinas em dia? </label>
-                        <select name="plano" id="">
-                            <option value="simVacina"> Sim </option>
-                            <option value="naoVacina"> Não </option>
-                        </select>
+                        <input type="text" class="form-control" name="vacinas" placeholder='o animal possui todas as vacinas?'>
                     </div>
                     <div class="col-md-2" style='align-items: center; justify-content: center;'>
                         <label class="form-label"> Possui Plano? </label>
-                        <select name="plano" id="">
-                            <option value="simPlano"> Sim </option>
-                            <option value="naoPlano"> Não </option>
-                        </select>
+                        <input type="text" class="form-control" name="plano" placeholder='possui plano?'>
                     </div>
                 </fieldset>
             </div> 

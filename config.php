@@ -1,6 +1,6 @@
 <?php
 
-    define('HOST', 'localhost');
+    define('HOST', '127.0.0.1');
     define('USER', 'root');
     define('PASSWORD', 'batatinha123');
     define('BASE', 'vetconnect');
