@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
 
@@ -17,9 +19,9 @@
     $row = $res->fetch_object();
 ?>
 
-<h1 style='text-align: center;' class="mt-6"> Edição de Animal </h1>
+<h1 class='tituloEdicao' class="mt-6"> Edição de Animal </h1>
 
-<form action="?page=salvar" class="row g-3" method="post" >
+<form action="?page=salvar" class="row g-3 form" method="post" >
     <input type="hidden" name="acao" value="editar">    
     <input type="hidden" name="id" value="<?php print $row->id ?>">   
 
@@ -108,7 +110,8 @@
         </div> 
     </div>
     <div style='display: flex; flex-direction: row; align-items: center; justify-content: center;'>
-        <input type="submit" value="Enviar"  class="btn btn-success">
+        <a class="btn btn-light" href="?page=listar" > Voltar </a>
+        <input type="submit" value="Salvar"  class="btn btn-success">
     </div>
 
 </form>

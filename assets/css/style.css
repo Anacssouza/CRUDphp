@@ -1,0 +1,47 @@
+body {
+    background-color: #7090b2;
+
+}
+
+.botaoEditar, .botaoExcluir {
+    width: 30px;
+}
+
+table{
+    text-align: center;
+    box-shadow: -15px 27px 69px rgba(0,0,0,0.3);
+}
+
+.tituloListagem, .tituloEdicao, .tituloCriacao {
+    color: white;
+    text-align: center;
+    margin: 5rem;
+
+}
+
+.table-rounded {
+    border-radius: 20px; /* ou outro valor desejado */
+    overflow: hidden;
+}
+
+.table-hover>tbody>tr:hover>* {
+    background-color: #b9d5f3;
+}
+
+.nav {
+    background-color: #2c3e50;
+    padding: 1rem 3rem;
+
+}
+
+.form {
+    color: white;
+    margin-bottom: 5rem;
+
+}
+
+.textoInicial {
+    color: white;
+    text-align: center;
+
+}
