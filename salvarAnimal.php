@@ -102,7 +102,6 @@
             break;
         
         default:
-            # code...
             break;
     }
 
