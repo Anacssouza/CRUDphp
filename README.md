@@ -1,7 +1,5 @@
 <h1 align="center"> Aumigos </h1>
 
-Ainda em desenvolvimento
-
 <h2> 🚀 Projeto </h2>
 
 - O projeto consiste em um site voltado para o pré cadastro de animais para consultas em uma clínica veterinária. Contendo um CRUD completo, podendo adicionar um cadastro de animal, editar, visualizar todos os cadastros existentes e excluir um determinado cadastro. Foi desenvolvido como trabalho final da disciplina de Tópicos Especiais em Tecnologias Digitais da graduação de Tecnologias da Informação e Comunicação da Universidade Federal de Santa Catarina.
